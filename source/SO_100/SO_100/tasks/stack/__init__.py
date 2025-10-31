@@ -4,7 +4,7 @@ from . import agents
 from . import stack_ik_abs_env_cfg
 
 gym.register(
-    id="Isaac-Stack-Cube-SoArm100-IK-Abs-v0",
+    id="Isaac-Stack-Cube-SO-ARM100-IK-Abs-v0",
     entry_point="isaaclab.envs:ManagerBasedRLEnv",
     kwargs={
         "env_cfg_entry_point": stack_ik_abs_env_cfg.SoArm100CubeStackEnvCfg,
